@@ -10848,7 +10848,7 @@ spec:
 <!-- Additional WebSocket injection from IDE (do not remove) -->
 <script>
    (function() {
-     var ws = new WebSocket('ws://' + window.location.host +
+     var ws = new WebSocket('wss://' + window.location.host +
                 '/jb-server-page?reloadMode=RELOAD_ON_SAVE&'+
                 'referrer=' + encodeURIComponent(window.location.pathname));
      ws.onmessage = function (msg) {
